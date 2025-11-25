@@ -144,6 +144,32 @@
 # acima_100 = list(filter(lambda x: x > 100, precos))
 # desconto = list(map(lambda x: x * 0.9, acima_100))
 # print(desconto)
+# =======================================================
+# DESAFIO INFINITY 
+
+# def notas(*args, **kwargs):
+#   print(f"Total de notal é: {len(args)}")
+#   bonus = kwargs.get("bonus", 0)
+#   bonus_decimal = bonus / 100
+
+#   com_bonus = list(map(lambda x: x * (1 + bonus_decimal), args))
+#   if bonus == 0:
+#     print(f"Notas originais: {args}")
+#   else:
+#     print(f"Notas com bônus: {com_bonus}")
+
+#   maior_que_7 = list(filter(lambda x: x >= 7, com_bonus))
+#   print(f"Quantidade de notas maiores ou iguais a 7: {len(maior_que_7)}")
+
+#   media_sem_bonus = sum(args) / len(args)
+#   print(f"A média geral sem bônus é: {media_sem_bonus}")
+#   media_com_bonus = sum(com_bonus) / len(com_bonus)
+#   print(f"A média geral com bônus é: {media_com_bonus}")
+#   return f"Notas maiores que 7 {maior_que_7}"
+
+# print(notas(10, 5, 4.5, 2, 7, 9, 8, numero=10))
+# =============================================================
+
 
 
 
